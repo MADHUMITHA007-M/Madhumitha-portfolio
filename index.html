@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Madhumitha S | Aspiring Machine Learning Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            Madhumitha <span>✦</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#journey">Journey</a>
+            <a href="#ask-mira">Ask MIRA</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+            ◐
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+   <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <span class="hello">
+            ✦ HELLO, I'M MADHUMITHA
+        </span>
+
+        <div class="hero-badge">
+            ✦ Currently exploring Machine Learning
+        </div>
+
+        <h1>
+            B.Tech IT Student &
+            <span>Aspiring Machine Learning Engineer</span>
+        </h1>
+
+        <p>
+            I’m an eager learner who enjoys exploring new things,
+            developing my skills and taking on new challenges.
+            I’m currently building my foundation in Machine Learning
+            and Data Science while strengthening my programming
+            and problem-solving skills.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="primary-btn">
+                View My Work ↗
+            </a>
+
+            <a href="Madhumitha_S_ATS_Resume_Colored.pdf" class="secondary-btn" download="Madhumitha_S_ATS_Resume.pdf">
+                Download Resume ↗
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Photo -->
+
+    <div class="hero-visual">
+
+        <div class="photo-container">
+
+            <div class="photo-placeholder">
+                <span>YOUR<br>PHOTO</span>
+            </div>
+
+        </div>
+
+        <div class="floating-card">
+
+            <span class="floating-icon">✦</span>
+
+            <div>
+                <small>Currently Learning</small>
+
+                <strong>
+                    Machine Learning & DSA
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+   <section id="about" class="section about-section">
+
+    <div class="section-heading">
+        <span>✦ GET TO KNOW ME</span>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <p>
+                I’m Madhumitha, a B.Tech Information Technology student
+                interested in <strong>Machine Learning</strong>,
+                <strong>Data Science</strong> and technology-driven
+                problem solving.
+            </p>
+
+            <p>
+                I’m building my foundation in programming, data analysis
+                and Machine Learning while continuously improving my
+                problem-solving skills.
+            </p>
+
+            <p>
+                I believe every project is an opportunity to learn
+                something new, experiment with ideas and become better
+                at what I do.
+            </p>
+
+            <div class="about-highlight">
+                <span>✦</span>
+                <div>
+                    <strong>My mindset</strong>
+                    <p>
+                        Learn continuously · Build practically ·
+                        Improve consistently
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <strong>3rd</strong>
+                <span>Year B.Tech IT</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>8.83</strong>
+                <span>CGPA</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>3+</strong>
+                <span>Programming Languages</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>1</strong>
+                <span>Featured Project</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-heading">
+
+            <span>✦ WHAT I WORK WITH</span>
+
+            <h2>Skills</h2>
+
+            <p>
+                Click on a skill to explore what I know and what I'm currently learning.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <!-- Programming -->
+
+            <div class="skill-category">
+
+                <h3>Programming</h3>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'python')">
+
+                    <span class="skill-icon">🐍</span>
+
+                    <div>
+                        <strong>Python</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'java')">
+
+                    <span class="skill-icon">☕</span>
+
+                    <div>
+                        <strong>Java</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'c')">
+
+                    <span class="skill-icon">◈</span>
+
+                    <div>
+                        <strong>C</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Data Science -->
+
+            <div class="skill-category">
+
+                <h3>Data Science & ML</h3>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'datascience')">
+
+                    <span class="skill-icon">📊</span>
+
+                    <div>
+                        <strong>Data Science</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'numpy')">
+
+                    <span class="skill-icon">🔢</span>
+
+                    <div>
+                        <strong>NumPy</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'pandas')">
+
+                    <span class="skill-icon">🐼</span>
+
+                    <div>
+                        <strong>Pandas</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card learning-card"
+                    onclick="showSkill(this, 'ml')">
+
+                    <span class="skill-icon">🤖</span>
+
+                    <div>
+                        <strong>Machine Learning</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Web -->
+
+            <div class="skill-category">
+
+                <h3>Web Technologies</h3>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'html')">
+
+                    <span class="skill-icon">🌐</span>
+
+                    <div>
+                        <strong>HTML</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'css')">
+
+                    <span class="skill-icon">🎨</span>
+
+                    <div>
+                        <strong>CSS</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'javascript')">
+
+                    <span class="skill-icon">⚡</span>
+
+                    <div>
+                        <strong>JavaScript</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Database -->
+
+            <div class="skill-category">
+
+                <h3>Database & Core</h3>
+
+
+                <div class="skill-card" onclick="showSkill(this, 'sql')">
+
+                    <span class="skill-icon">🗄️</span>
+
+                    <div>
+                        <strong>SQL</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+
+                <div class="skill-card learning-card"
+                    onclick="showSkill(this, 'dsa')">
+
+                    <span class="skill-icon">✦</span>
+
+                    <div>
+                        <strong>Data Structures & Algorithms</strong>
+                        <p class="skill-description"></p>
+                    </div>
+
+                    <span class="arrow">→</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECT ================= -->
+
+   <!-- ================= PROJECTS ================= -->
+<section id="projects" class="section projects-section">
+
+    <div class="section-heading">
+        <span>✦ FEATURED WORK</span>
+        <h2>Featured Project</h2>
+        <p>
+            A project where I explored AI-powered shopping,
+            recommendations and merchant-focused insights.
+        </p>
+    </div>
+
+    <div class="project-card">
+
+        <!-- Project Header -->
+        <div class="project-top">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <div class="project-title">
+                <span class="project-label">FEATURED PROJECT</span>
+                <h3>MIRA</h3>
+                <h4>AI Merchant Growth Agent</h4>
+            </div>
+
+            <div class="project-status">
+                <span class="status-dot"></span>
+                Featured
+            </div>
+
+        </div>
+
+
+        <!-- Project Description -->
+        <div class="project-main">
+
+            <div class="project-description">
+
+                <p>
+                    MIRA is an AI-powered shopping and merchant-growth
+                    project that explores customer intent, product
+                    recommendations, budget-aware bundles and merchant
+                    insights.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>FastAPI</span>
+
+                </div>
+
+                <div class="project-actions">
+
+                    <button
+                        class="project-details-btn"
+                        onclick="toggleProjectDetails()">
+
+                        <span>View Details</span>
+                        <span id="projectArrow">+</span>
+
+                    </button>
+
+                    <a
+                        href="https://github.com/MADHUMITHA007-M/MIRA-AI-Merchant-Growth-Agent"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="github-btn">
+
+                        GitHub ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- MIRA Preview -->
+            <div class="mira-preview">
+
+                <div class="mira-preview-header">
+
+                    <span class="mira-brand">
+                        MIRA <span>✦</span>
+                    </span>
+
+                    <span class="mira-agent">
+                        AI Agent
+                    </span>
+
+                </div>
+
+                <div class="mira-preview-message">
+
+                    <span class="mira-mini-symbol">✦</span>
+
+                    <div>
+                        <strong>What can I help you find?</strong>
+
+                        <p>
+                            I can understand your request and
+                            help explore suitable products.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="mira-preview-input">
+                    <span>Ask MIRA something...</span>
+                    <span>→</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Expandable Project Details -->
+        <div
+            class="project-details"
+            id="projectDetails">
+
+            <div class="details-grid">
+
+                <div class="detail-block">
+
+                    <span class="detail-number">01</span>
+
+                    <h4>AI Shopping Assistant</h4>
+
+                    <p>
+                        Explores customer intent and presents
+                        a best match along with product recommendations.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-block">
+
+                    <span class="detail-number">02</span>
+
+                    <h4>Smart Bundles</h4>
+
+                    <p>
+                        Identifies complementary products while
+                        considering the customer's budget.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-block">
+
+                    <span class="detail-number">03</span>
+
+                    <h4>Cart & Checkout</h4>
+
+                    <p>
+                        Supports cart management, policy validation
+                        and a demo checkout/payment flow.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-block">
+
+                    <span class="detail-number">04</span>
+
+                    <h4>Merchant Dashboard</h4>
+
+                    <p>
+                        Provides merchant-oriented insights and
+                        growth opportunities.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-block">
+
+                    <span class="detail-number">05</span>
+
+                    <h4>Audit Trail</h4>
+
+                    <p>
+                        Tracks important actions throughout the
+                        recommendation and checkout flow.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Decision Pipeline -->
+            <div class="pipeline">
+
+                <div class="pipeline-heading">
+
+                    <span>✦</span>
+
+                    <div>
+                        <small>HOW MIRA WORKS</small>
+                        <h4>Agent Decision Pipeline</h4>
+                    </div>
+
+                </div>
+
+                <div class="pipeline-steps">
+
+                    <div class="pipeline-step">
+                        <span>01</span>
+                        <strong>Customer Intent</strong>
+                    </div>
+
+                    <span class="pipeline-arrow">→</span>
+
+                    <div class="pipeline-step">
+                        <span>02</span>
+                        <strong>AI Reasoning</strong>
+                    </div>
+
+                    <span class="pipeline-arrow">→</span>
+
+                    <div class="pipeline-step">
+                        <span>03</span>
+                        <strong>Product Search</strong>
+                    </div>
+
+                    <span class="pipeline-arrow">→</span>
+
+                    <div class="pipeline-step">
+                        <span>04</span>
+                        <strong>Growth Engine</strong>
+                    </div>
+
+                    <span class="pipeline-arrow">→</span>
+
+                    <div class="pipeline-step">
+                        <span>05</span>
+                        <strong>Convert</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>  
+
+<!-- EXPERIENCE & ENGAGEMENT SECTION -->
+<section id="experience" class="section experience-section">
+
+    <div class="section-heading">
+        <span>✦ EXPERIENCE & ENGAGEMENT</span>
+        <h2>Where I've Grown</h2>
+        <p>
+            A collection of my internship experiences and community engagement
+            that helped me grow beyond the classroom.
+        </p>
+    </div>
+
+    <div class="experience-container">
+
+        <!-- VEBBOX -->
+        <div class="experience-card" onclick="toggleExperience(this)">
+
+            <div class="experience-top">
+                <div class="experience-icon">01</div>
+
+                <div class="experience-title">
+                    <span class="experience-type">INTERNSHIP</span>
+                    <h3>VEBBOX Software Solutions</h3>
+                    <p>Software Intern · 15 Days · June–July 2025</p>
+                </div>
+
+                <span class="experience-arrow">→</span>
+            </div>
+
+            <div class="experience-details">
+
+                <p class="experience-summary">
+                    Gained practical exposure to software development,
+                    programming code review, web development and basic
+                    data handling.
+                </p>
+
+                <div class="experience-grid">
+
+                    <div>
+                        <span class="detail-label">WHAT I WORKED ON</span>
+                        <ul>
+                            <li>
+                                Reviewed and corrected syntax and logical
+                                errors in C, Java and Python code examples.
+                            </li>
+                            <li>
+                                Verified and improved programming course
+                                materials and code examples.
+                            </li>
+                            <li>
+                                Built a personal portfolio using HTML and CSS.
+                            </li>
+                            <li>
+                                Explored PDF text extraction using Python
+                                and NumPy.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span class="detail-label">SKILLS EXPLORED</span>
+
+                        <div class="experience-tags">
+                            <span>C</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="experience-footer">
+                    <span>Software Development</span>
+                    <span>→ Practical Learning</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ALTRUISTY -->
+        <div class="experience-card" onclick="toggleExperience(this)">
+
+            <div class="experience-top">
+                <div class="experience-icon">02</div>
+
+                <div class="experience-title">
+                    <span class="experience-type">INTERNSHIP</span>
+                    <h3>Altruisty Innovation Private Limited</h3>
+                    <p>Data Analytics Intern · 15 Days · 2026</p>
+                </div>
+
+                <span class="experience-arrow">→</span>
+            </div>
+
+            <div class="experience-details">
+
+                <p class="experience-summary">
+                    Gained practical exposure to Data Analytics concepts,
+                    development tools, version control and professional
+                    project workflows.
+                </p>
+
+                <div class="experience-grid">
+
+                    <div>
+                        <span class="detail-label">WHAT I WORKED ON</span>
+                        <ul>
+                            <li>
+                                Learned and applied Data Analytics fundamentals
+                                through practical activities.
+                            </li>
+                            <li>
+                                Used Git and GitHub for version control and
+                                project management.
+                            </li>
+                            <li>
+                                Worked with VS Code and connected development
+                                workflows with GitHub.
+                            </li>
+                            <li>
+                                Built and maintained a professional web
+                                portfolio using HTML and CSS.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span class="detail-label">SKILLS EXPLORED</span>
+
+                        <div class="experience-tags">
+                            <span>Data Analytics</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="experience-footer">
+                    <span>Data Analytics</span>
+                    <span>→ Industry Exposure</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- NSS -->
+        <div class="experience-card" onclick="toggleExperience(this)">
+
+            <div class="experience-top">
+                <div class="experience-icon">03</div>
+
+                <div class="experience-title">
+                    <span class="experience-type">COMMUNITY ENGAGEMENT</span>
+                    <h3>NSS — Seven-Day Special Camp</h3>
+                    <p>Sri Sai Ram Engineering College · July 2026</p>
+                </div>
+
+                <span class="experience-arrow">→</span>
+            </div>
+
+            <div class="experience-details">
+
+                <p class="experience-summary">
+                    Participated in a seven-day NSS community service camp
+                    focused on environmental protection, healthcare,
+                    cleanliness and social awareness.
+                </p>
+
+                <div class="experience-grid">
+
+                    <div>
+                        <span class="detail-label">ACTIVITIES</span>
+
+                        <ul>
+                            <li>
+                                Participated in solid waste management and
+                                environmental awareness activities.
+                            </li>
+                            <li>
+                                Supported medical camp and blood donation
+                                awareness activities.
+                            </li>
+                            <li>
+                                Participated in drug and plastic awareness
+                                rallies.
+                            </li>
+                            <li>
+                                Interacted with school students through
+                                educational and awareness programmes.
+                            </li>
+                            <li>
+                                Participated in government welfare scheme
+                                awareness activities.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span class="detail-label">SKILLS DEVELOPED</span>
+
+                        <div class="experience-tags">
+                            <span>Teamwork</span>
+                            <span>Communication</span>
+                            <span>Leadership</span>
+                            <span>Discipline</span>
+                            <span>Social Responsibility</span>
+                            <span>Community Service</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="experience-footer">
+                    <span>NSS Volunteer</span>
+                    <span>→ Community Impact</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    
+
+    <!-- ================= EDUCATION ================= -->
+<section id="education" class="section education-section">
+
+    <div class="section-heading">
+        <span>✦ MY ACADEMIC PATH</span>
+        <h2>Education</h2>
+        <p>
+            Building my foundation in Information Technology
+            while exploring Data Science and Machine Learning.
+        </p>
+    </div>
+
+
+    <div class="education-container">
+
+        <!-- Main Education Card -->
+        <div class="education-card main-education">
+
+            <div class="education-year">
+                2025 — 2028
+            </div>
+
+            <div class="education-icon">
+                ✦
+            </div>
+
+            <div class="education-content">
+
+                <span class="education-label">
+                    B.TECH
+                </span>
+
+                <h3>Information Technology</h3>
+
+                <h4>
+                    Sri Sairam Engineering College
+                </h4>
+
+                <p>
+                    Currently in my 3rd year, building a strong
+                    foundation in programming, databases, web
+                    technologies, Data Science and Machine Learning.
+                </p>
+
+                <div class="education-meta">
+
+                    <div>
+                        <span>CGPA</span>
+                        <strong>8.83</strong>
+                    </div>
+
+                    <div>
+                        <span>YEAR</span>
+                        <strong>3rd Year</strong>
+                    </div>
+
+                    <div>
+                        <span>GRADUATION</span>
+                        <strong>2028</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- School Cards -->
+        <div class="school-education-grid">
+
+            <div class="education-small-card">
+
+                <div class="small-card-top">
+
+                    <span>12th</span>
+
+                    <span class="education-plus">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>Higher Secondary</h3>
+
+                <div class="percentage">
+                    84<span>%</span>
+                </div>
+
+                <p>
+                    Completed Higher Secondary education.
+                </p>
+
+            </div>
+
+
+            <div class="education-small-card">
+
+                <div class="small-card-top">
+
+                    <span>10th</span>
+
+                    <span class="education-plus">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>Secondary School</h3>
+
+                <div class="percentage">
+                    85<span>%</span>
+                </div>
+
+                <p>
+                    Completed Secondary School education.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Education Focus -->
+        <div class="education-focus">
+
+            <div class="focus-title">
+
+                <span>✦</span>
+
+                <div>
+                    <small>CURRENT FOCUS</small>
+                    <h3>Learning Beyond the Classroom</h3>
+                </div>
+
+            </div>
+
+            <div class="focus-items">
+
+                <span>Programming</span>
+                <span>Data Science</span>
+                <span>Machine Learning</span>
+                <span>Problem Solving</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+
+    <!-- ================= JOURNEY ================= -->
+<section id="journey" class="section journey-section">
+
+    <div class="section-heading">
+
+        <span>✦ MY JOURNEY</span>
+
+        <h2>Learning & Growing</h2>
+
+        <p>
+            A timeline of how I have been building my technical
+            foundation and moving towards Machine Learning.
+        </p>
+
+    </div>
+
+
+    <div class="journey-wrapper">
+
+        <div class="journey-line"></div>
+
+
+        <!-- 2025 -->
+        <div
+            class="journey-item active"
+            onclick="toggleJourney(this)">
+
+            <div class="journey-marker">
+                <span>01</span>
+            </div>
+
+            <div class="journey-card">
+
+                <div class="journey-card-top">
+
+                    <span class="journey-date">
+                        2025
+                    </span>
+
+                    <span class="journey-toggle">
+                        −
+                    </span>
+
+                </div>
+
+                <h3>
+                    Started B.Tech IT
+                </h3>
+
+                <p>
+                    Began my journey in Information Technology
+                    and started building my programming foundation.
+                </p>
+
+                <div class="journey-tags">
+                    <span>Foundation</span>
+                    <span>IT</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2025 - 2026 -->
+        <div
+            class="journey-item"
+            onclick="toggleJourney(this)">
+
+            <div class="journey-marker">
+                <span>02</span>
+            </div>
+
+            <div class="journey-card">
+
+                <div class="journey-card-top">
+
+                    <span class="journey-date">
+                        2025 — 2026
+                    </span>
+
+                    <span class="journey-toggle">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>
+                    Exploring & Learning
+                </h3>
+
+                <p>
+                    Worked with C, Java, Python, HTML, CSS,
+                    JavaScript and SQL while strengthening
+                    my technical foundation.
+                </p>
+
+                <div class="journey-tags">
+                    <span>C</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>Web</span>
+                    <span>SQL</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2026 -->
+        <div
+            class="journey-item"
+            onclick="toggleJourney(this)">
+
+            <div class="journey-marker">
+                <span>03</span>
+            </div>
+
+            <div class="journey-card">
+
+                <div class="journey-card-top">
+
+                    <span class="journey-date">
+                        2026
+                    </span>
+
+                    <span class="journey-toggle">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>
+                    Exploring Data Science & ML
+                </h3>
+
+                <p>
+                    Started exploring Data Science concepts
+                    and working with NumPy and Pandas while
+                    learning Machine Learning.
+                </p>
+
+                <div class="journey-tags">
+                    <span>Data Science</span>
+                    <span>NumPy</span>
+                    <span>Pandas</span>
+                    <span>ML</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- NOW -->
+        <div
+            class="journey-item current"
+            onclick="toggleJourney(this)">
+
+            <div class="journey-marker">
+                <span>04</span>
+            </div>
+
+            <div class="journey-card">
+
+                <div class="journey-card-top">
+
+                    <span class="journey-date">
+                        NOW
+                    </span>
+
+                    <span class="journey-toggle">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>
+                    Building & Improving
+                </h3>
+
+                <p>
+                    Strengthening Machine Learning, DSA and
+                    data-driven problem-solving skills.
+                </p>
+
+                <div class="journey-tags">
+                    <span>Machine Learning</span>
+                    <span>DSA</span>
+                    <span>Problem Solving</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- NEXT -->
+        <div
+            class="journey-item next"
+            onclick="toggleJourney(this)">
+
+            <div class="journey-marker">
+                <span>05</span>
+            </div>
+
+            <div class="journey-card">
+
+                <div class="journey-card-top">
+
+                    <span class="journey-date">
+                        NEXT
+                    </span>
+
+                    <span class="journey-toggle">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>
+                    Build More ML Projects
+                </h3>
+
+                <p>
+                    Build more ML projects and strengthen
+                    my skills.
+                </p>
+
+                <div class="journey-next-arrow">
+                    → Keep learning
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ASK MIRA -->
+<section id="ask-mira" class="section">
+    <div class="section-heading">
+        <span>✦ GET TO KNOW ME</span>
+        <h2>Ask MIRA About Me 🤖</h2>
+        <p>Curious about my skills, journey or project? Ask MIRA.</p>
+    </div>
+
+    <div class="mira-about-box">
+        <div class="mira-chat">
+            <div class="mira-message">
+                <span class="mira-icon">✦</span>
+                <p id="miraAnswer">
+                    Hi! I'm MIRA 👋 Ask me anything about Madhumitha.
+                </p>
+            </div>
+        </div>
+
+        <div class="mira-questions">
+            <button onclick="askMira('skills')">
+                What skills does Madhumitha have?
+            </button>
+
+            <button onclick="askMira('learning')">
+                What is she currently learning?
+            </button>
+
+            <button onclick="askMira('project')">
+                Tell me about her project
+            </button>
+
+            <button onclick="askMira('education')">
+                What is her education?
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- ================= CONTACT ================= -->
+     <!-- CONTACT SECTION -->
+<section id="contact" class="section contact-section">
+
+    <div class="section-heading">
+        <span>✦ LET'S CONNECT</span>
+        <h2>Contact Me</h2>
+        <p>
+            Interested in connecting, collaborating, or learning more about my work?
+            Feel free to reach out.
+        </p>
+    </div>
+
+    <div class="contact-box">
+
+        <div class="contact-intro">
+            <span class="contact-symbol">✦</span>
+
+            <div>
+                <h3>Let's stay connected</h3>
+                <p>
+                    I’m always open to learning, exploring new opportunities,
+                    and connecting with people in technology.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-links">
+
+            <a href="mailto:sec24it098@sairamtap.edu.in">
+                Email ↗
+            </a>
+
+            <a
+                href="https://github.com/MADHUMITHA007-M"
+                target="_blank"
+                rel="noopener noreferrer">
+                GitHub ↗
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/madhumitha-s-b56804331"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+   
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-name">
+            Madhumitha S <span>✦</span>
+        </div>
+
+        <p>
+            Learning · Building · Growing
+        </p>
+
+        <small>
+            © 2026 Madhumitha S
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
